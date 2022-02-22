@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include binalyto_bi *.css
+recursive-include binalyto_bi *.csv
+recursive-include binalyto_bi *.html
+recursive-include binalyto_bi *.ico
+recursive-include binalyto_bi *.js
+recursive-include binalyto_bi *.json
+recursive-include binalyto_bi *.md
+recursive-include binalyto_bi *.png
+recursive-include binalyto_bi *.py
+recursive-include binalyto_bi *.svg
+recursive-include binalyto_bi *.txt
+recursive-exclude binalyto_bi *.pyc
