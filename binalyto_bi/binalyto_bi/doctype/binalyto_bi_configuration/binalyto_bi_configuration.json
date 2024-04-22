@@ -9,7 +9,14 @@
  "field_order": [
   "authorization_code",
   "company_name",
-  "send_sms"
+  "send_sms",
+  "auto_enroll",
+  "razorpay_key",
+  "razorpay_secret",
+  "webhook_secret",
+  "lsq_access_key",
+  "lsq_secret",
+  "signing_secret"
  ],
  "fields": [
   {
@@ -27,11 +34,47 @@
    "fieldname": "send_sms",
    "fieldtype": "Check",
    "label": "Send SMS"
+  },
+  {
+   "fieldname": "razorpay_key",
+   "fieldtype": "Data",
+   "label": "Razorpay API Key"
+  },
+  {
+   "fieldname": "razorpay_secret",
+   "fieldtype": "Data",
+   "label": "Razorpay API Secret"
+  },
+  {
+   "fieldname": "webhook_secret",
+   "fieldtype": "Data",
+   "label": "Webhook Secret"
+  },
+  {
+   "fieldname": "lsq_access_key",
+   "fieldtype": "Data",
+   "label": "LSQ Access Key"
+  },
+  {
+   "fieldname": "lsq_secret",
+   "fieldtype": "Data",
+   "label": "LSQ Secret"
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_enroll",
+   "fieldtype": "Check",
+   "label": "Auto Enroll"
+  },
+  {
+   "fieldname": "signing_secret",
+   "fieldtype": "Data",
+   "label": "Signing Secret"
   }
  ],
  "issingle": 1,
  "links": [],
- "modified": "2022-02-01 17:33:49.401770",
+ "modified": "2024-02-09 22:52:36.125257",
  "modified_by": "Administrator",
  "module": "Binalyto BI",
  "name": "Binalyto BI Configuration",
